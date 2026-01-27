@@ -1,6 +1,8 @@
 (require 'package)
 
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives '(("melpa" . "https://melpa.org/packages/"))
+                                 ("gnu" . "https://elpa.gnu.org/packages/")
+                                 ("non-gnu" . "https://elpa.nongnu.org/nongnu/"))
 
 (package-initialize)
 
