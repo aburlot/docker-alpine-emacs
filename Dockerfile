@@ -1,6 +1,6 @@
-FROM alpine:3.14
+FROM alpine:3.23
 
-MAINTAINER Iku Iwasa "iku.iwasa@gmail.com"
+MAINTAINER Alan Burlot "gitlab.dispersal394@passinbox.com"
 
 RUN apk update && apk add ca-certificates emacs
 
