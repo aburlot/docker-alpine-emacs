@@ -1,6 +1,6 @@
 FROM alpine:3.23
 
-MAINTAINER Alan Burlot "gitlab.dispersal394@passinbox.com"
+LABEL maintainer="Alan Burlot <gitlab.dispersal394@passinbox.com>"
 
 RUN apk update && apk add ca-certificates emacs
 
